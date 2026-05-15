@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ABA ម៉ូបាល</string>
+    <string name="current_balance">សមតុល្យបច្ចុប្បន្ន</string>
+    <string name="zero_balance">$0.00</string>
+    <string name="monthly_income">ប្រាក់ចំណូលប្រចាំខែ</string>
+    <string name="monthly_expenses">ចំណាយប្រចាំខែ</string>
+    <string name="quick_add">បន្ថែមរហ័ស</string>
+    <string name="add_balance">បន្ថែមសមតុល្យ</string>
+    <string name="view_history">ប្រវត្តិកិច្ចការ</string>
+    <string name="manage_categories">គ្រប់គ្រងប្រភេទ</string>
+    <string name="budget_planner">ផែនការថវិកា</string>
+    <string name="savings_goals">គោលដៅសន្សំ</string>
+    <string name="analytics">ការវិភាគ</string>
+    <string name="income">ចំណូល</string>
+    <string name="clean">សម្អាត</string>
+    <string name="category_name">ឈ្មោះប្រភេទ</string>
+    <string name="edit_category">កែសម្រួលប្រភេទ</string>
+    <string name="delete_category">លុបប្រភេទ</string>
+    <string name="category">ប្រភេទ</string>
+    <string name="date">កាលបរិច្ឆេទ</string>
+    
+    <!-- Profile Strings -->
+    <string name="profile">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="edit_profile">កែសម្រួលព័ត៌មាន</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="logout">ចាកចេញ</string>
+    <string name="change_language">ប្តូរភាសា</string>
+
+    <!-- Navigation Strings -->
+    <string name="nav_home">ទំព័រដើម</string>
+    <string name="nav_history">ប្រវត្តិ</string>
+    <string name="nav_analytics">ការវិភាគ</string>
+    <string name="nav_profile">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+
+    <!-- Firebase / Google Sign-In -->
+    <string name="default_web_client_id">407051774811-1drinh4j734kal9cu97bja5glu95loen.apps.googleusercontent.com</string>
+</resources>

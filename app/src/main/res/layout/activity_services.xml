@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aba_background"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/aba_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:gravity="center"
+        android:text="Services"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Service Items -->
+            <Button
+                android:id="@+id/btn_open_account"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Open New Account"
+                android:gravity="start|center_vertical"
+                android:drawableEnd="@android:drawable/ic_menu_add"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/aba_text_primary"/>
+
+            <Button
+                android:id="@+id/btn_statements"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Request Statement"
+                android:gravity="start|center_vertical"
+                android:drawableEnd="@android:drawable/ic_menu_agenda"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/aba_text_primary"/>
+
+            <Button
+                android:id="@+id/btn_chequebook"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Request Chequebook"
+                android:gravity="start|center_vertical"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/aba_text_primary"/>
+
+            <Button
+                android:id="@+id/btn_freeze_card"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Freeze Card"
+                android:gravity="start|center_vertical"
+                android:drawableEnd="@android:drawable/ic_lock_lock"
+                android:layout_marginBottom="12dp"
+                android:textColor="#D32F2F"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

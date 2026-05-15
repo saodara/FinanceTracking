@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ABA Bank Colors -->
+    <color name="aba_primary">#006C89</color> <!-- ABA Cyan/Teal -->
+    <color name="aba_primary_dark">#004F63</color>
+    <color name="aba_secondary">#002C3E</color> <!-- Dark Blue -->
+    <color name="aba_accent">#EE3E43</color> <!-- Red/Orange -->
+    <color name="aba_background">#F5F7FA</color> <!-- Light Gray -->
+    <color name="aba_text_primary">#212529</color>
+    <color name="aba_text_secondary">#6C757D</color>
+    <color name="aba_card_bg">#FFFFFF</color>
+    <color name="aba_button_text">#FFFFFF</color>
+</resources>

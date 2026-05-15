@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aba_background"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/aba_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:gravity="center"
+        android:text="Loan Calculator"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loan Amount ($)"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/aba_text_secondary"/>
+
+            <EditText
+                android:id="@+id/loan_amount"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:inputType="numberDecimal"
+                android:background="@drawable/rounded_bg_cyan"
+                android:backgroundTint="#FFFFFF"
+                android:paddingHorizontal="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interest Rate (% per year)"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/aba_text_secondary"/>
+
+            <EditText
+                android:id="@+id/loan_rate"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:inputType="numberDecimal"
+                android:background="@drawable/rounded_bg_cyan"
+                android:backgroundTint="#FFFFFF"
+                android:paddingHorizontal="16dp"
+                android:hint="12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Term (Months)"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/aba_text_secondary"/>
+
+            <EditText
+                android:id="@+id/loan_term"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:inputType="number"
+                android:background="@drawable/rounded_bg_cyan"
+                android:backgroundTint="#FFFFFF"
+                android:paddingHorizontal="16dp"
+                android:hint="12"/>
+
+            <Button
+                android:id="@+id/btn_calculate_loan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/aba_primary"
+                android:text="Calculate Repayment"
+                android:textColor="@color/white"
+                app:cornerRadius="12dp"/>
+
+            <TextView
+                android:id="@+id/loan_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/aba_primary_dark"
+                android:text="Monthly Payment: $0.00"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

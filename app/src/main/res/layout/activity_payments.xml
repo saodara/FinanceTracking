@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aba_background"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/aba_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:gravity="center"
+        android:text="Payments"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Search -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_bg_cyan"
+                android:hint="Search Biller"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Services"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- GRID -->
+            <GridLayout
+                android:id="@+id/grid_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:useDefaultMargins="true"
+                android:alignmentMode="alignMargins">
+
+                <!-- Button Style -->
+                <!-- Repeat this pattern -->
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Mobile\nTop-up"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Utilities"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Internet"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Insurance"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Education"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="More"
+                    android:textSize="12sp"
+                    android:textColor="#0A7C8C"
+                    android:backgroundTint="#EAF6F8"
+                    app:icon="@drawable/ic_launcher_foreground"
+                    app:iconGravity="textTop" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ABA 手机</string>
+    <string name="current_balance">当前余额</string>
+    <string name="zero_balance">$0.00</string>
+    <string name="monthly_income">月收入</string>
+    <string name="monthly_expenses">月支出</string>
+    <string name="quick_add">快速添加</string>
+    <string name="add_balance">添加余额</string>
+    <string name="view_history">查看历史</string>
+    <string name="manage_categories">管理类别</string>
+    <string name="budget_planner">预算规划</string>
+    <string name="savings_goals">储蓄目标</string>
+    <string name="analytics">分析</string>
+    <string name="income">收入</string>
+    <string name="clean">清除</string>
+    <string name="category_name">类别名称</string>
+    <string name="edit_category">编辑类别</string>
+    <string name="delete_category">删除类别</string>
+    <string name="category">类别</string>
+    <string name="date">日期</string>
+    
+    <!-- Profile Strings -->
+    <string name="profile">个人资料</string>
+    <string name="edit_profile">编辑资料</string>
+    <string name="settings">设置</string>
+    <string name="logout">退出登录</string>
+    <string name="change_language">更改语言</string>
+
+    <!-- Navigation Strings -->
+    <string name="nav_home">首页</string>
+    <string name="nav_history">历史</string>
+    <string name="nav_analytics">分析</string>
+    <string name="nav_profile">个人资料</string>
+</resources>
